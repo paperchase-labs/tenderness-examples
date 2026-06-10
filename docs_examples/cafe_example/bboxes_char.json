@@ -1,0 +1,117 @@
+[
+  {
+    "logical_bbox": {
+      "top_left": [
+        8.0,
+        8.0
+      ],
+      "top_right": [
+        25.0,
+        8.0
+      ],
+      "bottom_right": [
+        25.0,
+        58.0
+      ],
+      "bottom_left": [
+        8.0,
+        58.0
+      ]
+    },
+    "text": "c",
+    "byte_index": 0,
+    "byte_length": 1
+  },
+  {
+    "logical_bbox": {
+      "top_left": [
+        25.0,
+        8.0
+      ],
+      "top_right": [
+        45.0,
+        8.0
+      ],
+      "bottom_right": [
+        45.0,
+        58.0
+      ],
+      "bottom_left": [
+        25.0,
+        58.0
+      ]
+    },
+    "text": "a",
+    "byte_index": 1,
+    "byte_length": 1
+  },
+  {
+    "logical_bbox": {
+      "top_left": [
+        45.0,
+        8.0
+      ],
+      "top_right": [
+        57.0,
+        8.0
+      ],
+      "bottom_right": [
+        57.0,
+        58.0
+      ],
+      "bottom_left": [
+        45.0,
+        58.0
+      ]
+    },
+    "text": "f",
+    "byte_index": 2,
+    "byte_length": 1
+  },
+  {
+    "logical_bbox": {
+      "top_left": [
+        57.0,
+        8.0
+      ],
+      "top_right": [
+        67.0,
+        8.0
+      ],
+      "bottom_right": [
+        67.0,
+        58.0
+      ],
+      "bottom_left": [
+        57.0,
+        58.0
+      ]
+    },
+    "text": "e",
+    "byte_index": 3,
+    "byte_length": 1
+  },
+  {
+    "logical_bbox": {
+      "top_left": [
+        67.0,
+        8.0
+      ],
+      "top_right": [
+        77.0,
+        8.0
+      ],
+      "bottom_right": [
+        77.0,
+        58.0
+      ],
+      "bottom_left": [
+        67.0,
+        58.0
+      ]
+    },
+    "text": "́",
+    "byte_index": 4,
+    "byte_length": 2
+  }
+]
