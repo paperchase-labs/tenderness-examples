@@ -1,0 +1,86 @@
+[
+  {
+    "logical_bbox": {
+      "top_left": [
+        10.0,
+        14.0
+      ],
+      "top_right": [
+        127.0,
+        14.0
+      ],
+      "bottom_right": [
+        127.0,
+        69.0
+      ],
+      "bottom_left": [
+        10.0,
+        69.0
+      ]
+    },
+    "ink_bbox": {
+      "top_left": [
+        24.0,
+        27.0
+      ],
+      "top_right": [
+        115.0,
+        27.0
+      ],
+      "bottom_right": [
+        115.0,
+        57.0
+      ],
+      "bottom_left": [
+        24.0,
+        57.0
+      ]
+    },
+    "text": " Hello ",
+    "byte_index": 0,
+    "byte_length": 7,
+    "baseline": 47.0
+  },
+  {
+    "logical_bbox": {
+      "top_left": [
+        127.0,
+        10.0
+      ],
+      "top_right": [
+        216.0,
+        10.0
+      ],
+      "bottom_right": [
+        216.0,
+        69.0
+      ],
+      "bottom_left": [
+        127.0,
+        69.0
+      ]
+    },
+    "ink_bbox": {
+      "top_left": [
+        127.0,
+        22.0
+      ],
+      "top_right": [
+        205.0,
+        22.0
+      ],
+      "bottom_right": [
+        205.0,
+        61.0
+      ],
+      "bottom_left": [
+        127.0,
+        61.0
+      ]
+    },
+    "text": "你好 ",
+    "byte_index": 7,
+    "byte_length": 7,
+    "baseline": 47.0
+  }
+]

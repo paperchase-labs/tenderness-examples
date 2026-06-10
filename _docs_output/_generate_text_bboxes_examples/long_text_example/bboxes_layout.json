@@ -1,0 +1,39 @@
+{
+  "logical_bbox": {
+    "top_left": [
+      10.0,
+      10.0
+    ],
+    "top_right": [
+      245.0,
+      10.0
+    ],
+    "bottom_right": [
+      245.0,
+      120.0
+    ],
+    "bottom_left": [
+      10.0,
+      120.0
+    ]
+  },
+  "ink_bbox": {
+    "top_left": [
+      10.0,
+      24.0
+    ],
+    "top_right": [
+      242.0,
+      24.0
+    ],
+    "bottom_right": [
+      242.0,
+      108.0
+    ],
+    "bottom_left": [
+      10.0,
+      108.0
+    ]
+  },
+  "text": "Some XZY?!\nАБВ for sure"
+}

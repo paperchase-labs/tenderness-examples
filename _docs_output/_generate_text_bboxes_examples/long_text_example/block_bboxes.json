@@ -10,29 +10,29 @@
     ],
     "bottom_right": [
       300,
-      100
+      150
     ],
     "bottom_left": [
       0,
-      100
+      150
     ]
   },
   "content_bbox": {
     "top_left": [
-      8,
-      8
+      10,
+      10
     ],
     "top_right": [
-      292,
-      8
+      290,
+      10
     ],
     "bottom_right": [
-      292,
-      92
+      290,
+      140
     ],
     "bottom_left": [
-      8,
-      92
+      10,
+      140
     ]
   },
   "block_bboxes": [
@@ -40,20 +40,20 @@
       "name": "main",
       "bbox": {
         "top_left": [
-          8,
-          8
+          10,
+          10
         ],
         "top_right": [
-          292,
-          8
+          290,
+          10
         ],
         "bottom_right": [
-          292,
-          92
+          290,
+          140
         ],
         "bottom_left": [
-          8,
-          92
+          10,
+          140
         ]
       }
     }

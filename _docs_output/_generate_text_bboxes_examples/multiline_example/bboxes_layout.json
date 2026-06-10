@@ -1,0 +1,39 @@
+{
+  "logical_bbox": {
+    "top_left": [
+      10.0,
+      10.0
+    ],
+    "top_right": [
+      369.0,
+      10.0
+    ],
+    "bottom_right": [
+      369.0,
+      120.0
+    ],
+    "bottom_left": [
+      10.0,
+      120.0
+    ]
+  },
+  "ink_bbox": {
+    "top_left": [
+      11.0,
+      23.0
+    ],
+    "top_right": [
+      366.0,
+      23.0
+    ],
+    "bottom_right": [
+      366.0,
+      108.0
+    ],
+    "bottom_left": [
+      11.0,
+      108.0
+    ]
+  },
+  "text": "This is the 1st line.\nThis is the 2nd line."
+}

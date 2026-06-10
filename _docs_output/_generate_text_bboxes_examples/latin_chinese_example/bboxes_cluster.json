@@ -1,0 +1,412 @@
+[
+  {
+    "logical_bbox": {
+      "top_left": [
+        10.0,
+        14.0
+      ],
+      "top_right": [
+        20.0,
+        14.0
+      ],
+      "bottom_right": [
+        20.0,
+        69.0
+      ],
+      "bottom_left": [
+        10.0,
+        69.0
+      ]
+    },
+    "ink_bbox": {
+      "top_left": [
+        10.0,
+        57.0
+      ],
+      "top_right": [
+        10.0,
+        57.0
+      ],
+      "bottom_right": [
+        10.0,
+        57.0
+      ],
+      "bottom_left": [
+        10.0,
+        57.0
+      ]
+    },
+    "text": " ",
+    "byte_index": 0,
+    "byte_length": 1
+  },
+  {
+    "logical_bbox": {
+      "top_left": [
+        20.0,
+        14.0
+      ],
+      "top_right": [
+        50.0,
+        14.0
+      ],
+      "bottom_right": [
+        50.0,
+        69.0
+      ],
+      "bottom_left": [
+        20.0,
+        69.0
+      ]
+    },
+    "ink_bbox": {
+      "top_left": [
+        24.0,
+        28.0
+      ],
+      "top_right": [
+        46.0,
+        28.0
+      ],
+      "bottom_right": [
+        46.0,
+        57.0
+      ],
+      "bottom_left": [
+        24.0,
+        57.0
+      ]
+    },
+    "text": "H",
+    "byte_index": 1,
+    "byte_length": 1
+  },
+  {
+    "logical_bbox": {
+      "top_left": [
+        50.0,
+        14.0
+      ],
+      "top_right": [
+        73.0,
+        14.0
+      ],
+      "bottom_right": [
+        73.0,
+        69.0
+      ],
+      "bottom_left": [
+        50.0,
+        69.0
+      ]
+    },
+    "ink_bbox": {
+      "top_left": [
+        52.0,
+        35.0
+      ],
+      "top_right": [
+        70.0,
+        35.0
+      ],
+      "bottom_right": [
+        70.0,
+        57.0
+      ],
+      "bottom_left": [
+        52.0,
+        57.0
+      ]
+    },
+    "text": "e",
+    "byte_index": 2,
+    "byte_length": 1
+  },
+  {
+    "logical_bbox": {
+      "top_left": [
+        73.0,
+        14.0
+      ],
+      "top_right": [
+        83.0,
+        14.0
+      ],
+      "bottom_right": [
+        83.0,
+        69.0
+      ],
+      "bottom_left": [
+        73.0,
+        69.0
+      ]
+    },
+    "ink_bbox": {
+      "top_left": [
+        76.0,
+        27.0
+      ],
+      "top_right": [
+        80.0,
+        27.0
+      ],
+      "bottom_right": [
+        80.0,
+        57.0
+      ],
+      "bottom_left": [
+        76.0,
+        57.0
+      ]
+    },
+    "text": "l",
+    "byte_index": 3,
+    "byte_length": 1
+  },
+  {
+    "logical_bbox": {
+      "top_left": [
+        83.0,
+        14.0
+      ],
+      "top_right": [
+        93.0,
+        14.0
+      ],
+      "bottom_right": [
+        93.0,
+        69.0
+      ],
+      "bottom_left": [
+        83.0,
+        69.0
+      ]
+    },
+    "ink_bbox": {
+      "top_left": [
+        86.0,
+        27.0
+      ],
+      "top_right": [
+        90.0,
+        27.0
+      ],
+      "bottom_right": [
+        90.0,
+        57.0
+      ],
+      "bottom_left": [
+        86.0,
+        57.0
+      ]
+    },
+    "text": "l",
+    "byte_index": 4,
+    "byte_length": 1
+  },
+  {
+    "logical_bbox": {
+      "top_left": [
+        93.0,
+        14.0
+      ],
+      "top_right": [
+        117.0,
+        14.0
+      ],
+      "bottom_right": [
+        117.0,
+        69.0
+      ],
+      "bottom_left": [
+        93.0,
+        69.0
+      ]
+    },
+    "ink_bbox": {
+      "top_left": [
+        95.0,
+        35.0
+      ],
+      "top_right": [
+        115.0,
+        35.0
+      ],
+      "bottom_right": [
+        115.0,
+        57.0
+      ],
+      "bottom_left": [
+        95.0,
+        57.0
+      ]
+    },
+    "text": "o",
+    "byte_index": 5,
+    "byte_length": 1
+  },
+  {
+    "logical_bbox": {
+      "top_left": [
+        117.0,
+        14.0
+      ],
+      "top_right": [
+        127.0,
+        14.0
+      ],
+      "bottom_right": [
+        127.0,
+        69.0
+      ],
+      "bottom_left": [
+        117.0,
+        69.0
+      ]
+    },
+    "ink_bbox": {
+      "top_left": [
+        117.0,
+        57.0
+      ],
+      "top_right": [
+        117.0,
+        57.0
+      ],
+      "bottom_right": [
+        117.0,
+        57.0
+      ],
+      "bottom_left": [
+        117.0,
+        57.0
+      ]
+    },
+    "text": " ",
+    "byte_index": 6,
+    "byte_length": 1
+  },
+  {
+    "logical_bbox": {
+      "top_left": [
+        127.0,
+        10.0
+      ],
+      "top_right": [
+        167.0,
+        10.0
+      ],
+      "bottom_right": [
+        167.0,
+        69.0
+      ],
+      "bottom_left": [
+        127.0,
+        69.0
+      ]
+    },
+    "ink_bbox": {
+      "top_left": [
+        127.0,
+        23.0
+      ],
+      "top_right": [
+        166.0,
+        23.0
+      ],
+      "bottom_right": [
+        166.0,
+        60.0
+      ],
+      "bottom_left": [
+        127.0,
+        60.0
+      ]
+    },
+    "text": "你",
+    "byte_index": 7,
+    "byte_length": 3
+  },
+  {
+    "logical_bbox": {
+      "top_left": [
+        167.0,
+        10.0
+      ],
+      "top_right": [
+        207.0,
+        10.0
+      ],
+      "bottom_right": [
+        207.0,
+        69.0
+      ],
+      "bottom_left": [
+        167.0,
+        69.0
+      ]
+    },
+    "ink_bbox": {
+      "top_left": [
+        168.0,
+        22.0
+      ],
+      "top_right": [
+        205.0,
+        22.0
+      ],
+      "bottom_right": [
+        205.0,
+        61.0
+      ],
+      "bottom_left": [
+        168.0,
+        61.0
+      ]
+    },
+    "text": "好",
+    "byte_index": 10,
+    "byte_length": 3
+  },
+  {
+    "logical_bbox": {
+      "top_left": [
+        207.0,
+        10.0
+      ],
+      "top_right": [
+        216.0,
+        10.0
+      ],
+      "bottom_right": [
+        216.0,
+        69.0
+      ],
+      "bottom_left": [
+        207.0,
+        69.0
+      ]
+    },
+    "ink_bbox": {
+      "top_left": [
+        207.0,
+        57.0
+      ],
+      "top_right": [
+        207.0,
+        57.0
+      ],
+      "bottom_right": [
+        207.0,
+        57.0
+      ],
+      "bottom_left": [
+        207.0,
+        57.0
+      ]
+    },
+    "text": " ",
+    "byte_index": 13,
+    "byte_length": 1
+  }
+]
