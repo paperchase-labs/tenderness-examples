@@ -1,0 +1,39 @@
+{
+  "logical_bbox": {
+    "top_left": [
+      10.0,
+      10.0
+    ],
+    "top_right": [
+      88.0,
+      10.0
+    ],
+    "bottom_right": [
+      88.0,
+      65.0
+    ],
+    "bottom_left": [
+      10.0,
+      65.0
+    ]
+  },
+  "ink_bbox": {
+    "top_left": [
+      12.0,
+      21.0
+    ],
+    "top_right": [
+      85.0,
+      21.0
+    ],
+    "bottom_right": [
+      85.0,
+      53.0
+    ],
+    "bottom_left": [
+      12.0,
+      53.0
+    ]
+  },
+  "text": "café"
+}

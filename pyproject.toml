@@ -1,0 +1,25 @@
+# ============================================================================
+# Project
+# ============================================================================
+[project]
+name = "tenderness-examples"
+version = "0.2.0"
+description = "Examples for tenderness library"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["tenderness"]
+
+# ============================================================================
+# Dependency Groups
+# ============================================================================
+[dependency-groups]
+dev = ["mypy", "pre-commit", "ruff"]
+
+# ============================================================================
+# uv
+# ============================================================================
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+tenderness = { path = "../tenderness", editable = true }

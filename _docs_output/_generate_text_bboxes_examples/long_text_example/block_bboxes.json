@@ -1,0 +1,61 @@
+{
+  "surface_bbox": {
+    "top_left": [
+      0,
+      0
+    ],
+    "top_right": [
+      300,
+      0
+    ],
+    "bottom_right": [
+      300,
+      150
+    ],
+    "bottom_left": [
+      0,
+      150
+    ]
+  },
+  "content_bbox": {
+    "top_left": [
+      10,
+      10
+    ],
+    "top_right": [
+      290,
+      10
+    ],
+    "bottom_right": [
+      290,
+      140
+    ],
+    "bottom_left": [
+      10,
+      140
+    ]
+  },
+  "block_bboxes": [
+    {
+      "name": "main",
+      "bbox": {
+        "top_left": [
+          10,
+          10
+        ],
+        "top_right": [
+          290,
+          10
+        ],
+        "bottom_right": [
+          290,
+          140
+        ],
+        "bottom_left": [
+          10,
+          140
+        ]
+      }
+    }
+  ]
+}

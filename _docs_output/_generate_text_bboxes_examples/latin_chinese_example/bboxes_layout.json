@@ -1,0 +1,39 @@
+{
+  "logical_bbox": {
+    "top_left": [
+      10.0,
+      10.0
+    ],
+    "top_right": [
+      216.0,
+      10.0
+    ],
+    "bottom_right": [
+      216.0,
+      69.0
+    ],
+    "bottom_left": [
+      10.0,
+      69.0
+    ]
+  },
+  "ink_bbox": {
+    "top_left": [
+      24.0,
+      22.0
+    ],
+    "top_right": [
+      205.0,
+      22.0
+    ],
+    "bottom_right": [
+      205.0,
+      61.0
+    ],
+    "bottom_left": [
+      24.0,
+      61.0
+    ]
+  },
+  "text": " Hello 你好 "
+}
