@@ -7,12 +7,12 @@ from tenderness import (
     ImagePatternSpec,
     ImageSurfaceConfig,
     LayoutInterfaceParameters,
-    Margin,
-    MinimalFlexBoxTemplates,
+    Rectangle,
     SurfaceConfigManager,
 )
 from tenderness.pipelines.document import (
     BlockBBoxesResult,
+    BlockPosition,
     DocumentBlocksConfig,
     DocumentConfig,
     DocumentRenderPipeline,
@@ -38,16 +38,12 @@ PANEL_TEXTS = [
     "In any \nラんgüאج",
 ]
 
-PANEL_HEIGHTS = [
-    285.0,
-    285.0,
-    290.0,
-    320.0,
-]  # total height per panel (must sum to surface_height - top - bottom margin)
-PANEL_OFFSETS: list[float | None] = [0.0, 80.0, 0.0, 80.0]  # top spacer per panel — increase to push text lower
-
-PANEL_NAMES = [f"panel_{i}" for i in range(len(PANEL_TEXTS))]
-SPACER_NAMES = [f"spacer_{i}" for i in range(len(PANEL_TEXTS))]
+BLOCK_POSITIONS = [
+    BlockPosition(name="panel_0", rect=Rectangle(x=5, y=10, width=380, height=285)),
+    BlockPosition(name="panel_1", rect=Rectangle(x=5, y=375, width=380, height=205)),
+    BlockPosition(name="panel_2", rect=Rectangle(x=5, y=580, width=380, height=290)),
+    BlockPosition(name="panel_3", rect=Rectangle(x=5, y=950, width=380, height=240)),
+]
 
 CENTERED_LAYOUT = LayoutInterfaceParameters(alignment="center")
 
@@ -86,16 +82,7 @@ def render_reaction_meme(
     # 2) Define layout
     document_config = DocumentConfig(
         surface_config=surface_config,
-        global_margin=Margin(top=10, right=415, bottom=10, left=5),
-        block_spec=MinimalFlexBoxTemplates.documents_templates.labeled_sections(
-            section_label_height=PANEL_OFFSETS,
-            section_content_height=[
-                h - (o if o is not None else 0.0) for h, o in zip(PANEL_HEIGHTS, PANEL_OFFSETS, strict=True)
-            ],
-            col_specs=1,
-            n_sections=len(PANEL_TEXTS),
-            names=[name for pair in zip(SPACER_NAMES, PANEL_NAMES, strict=True) for name in pair],
-        ),
+        block_spec=BLOCK_POSITIONS,
         background_spec=ImagePatternSpec(path=IMAGE_PATH),
     )
 
@@ -103,12 +90,8 @@ def render_reaction_meme(
     blocks_config = DocumentBlocksConfig(
         surface_config=surface_config,
         blocks=[
-            block
-            for spacer_name, panel_name, text in zip(SPACER_NAMES, PANEL_NAMES, PANEL_TEXTS, strict=True)
-            for block in (
-                TextBlock(block_name=spacer_name, text=""),
-                TextBlock(block_name=panel_name, text=text, text_style=MEME_TEXT_STYLE),
-            )
+            TextBlock(block_name=bp.name, text=text, text_style=MEME_TEXT_STYLE)
+            for bp, text in zip(BLOCK_POSITIONS, PANEL_TEXTS, strict=True)
         ],
     )
 
